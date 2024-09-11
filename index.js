@@ -24,7 +24,7 @@ function getTimeStamp(){
 }
 
 function readData(){
-  var workbook = XLSX.readFile('./xlsx/01-08-23_31-08-23.xls');
+  var workbook = XLSX.readFile('./01-09-23_30-09-23.xls');
   var sheet_name_list = workbook.SheetNames;
   var xlData = XLSX.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]]);
   let Conti, Categorie;
